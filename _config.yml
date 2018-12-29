@@ -12,8 +12,10 @@ url: https://samirkut.github.io
 excerpt_separator: "<!--more-->"
 
 #author details
-samirkut:
+Samir:
   name: Samir Kuthiala
   email: samir.kuthiala@gmail.com
   web: http://twitter.com/samirkut
-  
+
+github:
+  is_project_page: false

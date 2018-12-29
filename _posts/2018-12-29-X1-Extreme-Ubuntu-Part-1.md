@@ -1,7 +1,7 @@
 ---
 category: Tech
 tags: [X1, Ubuntu, Pop OS]
-author: samirkut
+author: Samir
 title: X1 Extreme on Ubuntu (Part 1)
 ---
 
