@@ -10,3 +10,10 @@ gems:
 url: https://samirkut.github.io
 
 excerpt_separator: "<!--more-->"
+
+#author details
+samirkut:
+  name: Samir Kuthiala
+  email: samir.kuthiala@gmail.com
+  web: http://twitter.com/samirkut
+  
