@@ -1,3 +1,10 @@
 theme: jekyll-theme-hacker
 title: Samir's blog
 description: Collection of random tech stuff I do and like
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+url: https://samirkut.github.io
