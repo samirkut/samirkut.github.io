@@ -1,4 +1,5 @@
 ---
+layout: posts
 category: Tech
 tags: [X1, Ubuntu, Pop OS]
 author: Samir
