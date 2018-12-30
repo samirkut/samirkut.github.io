@@ -3,6 +3,7 @@ category: Tech
 tags: [X1, Ubuntu, Pop OS]
 author: Samir
 title: X1 Extreme on Ubuntu (Part 1)
+comments: true
 ---
 
 I recently acquired an X1 Extreme and spent the last day or so getting Ubuntu (to be more accurate Pop OS) to play nice with it. I have documented them below partly for my own sanity and also to ensure that any other owners can use this as a starting point.
