@@ -36,6 +36,7 @@ Installation is web based from [here](https://extensions.gnome.org). You need to
 * (K)StatusNotifierItem/AppIndicator Support - required to show systray icons for telegram, dropbox etc
 * User Themes - manage themes
 * Dash to Dock - move the dash from overview and convert it into a dock 
+* Windows Corner Preview - This doesnt work with the current version on the gnome extensions website. The easiest way is to install the extension from the site and then replace metadata.json and extension.json from the github repo. See [details](https://github.com/medenagan/window-corner-preview/issues/8#issuecomment-434488247)
 
 ### Other Software
 * Gnome Tweaks
