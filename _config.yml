@@ -1,6 +1,8 @@
 theme: jekyll-theme-hacker
 title: Tech Musings
-description: Pseudorandom ruminations 
+description: Pseudorandom ruminations
+
+permalink: pretty
 
 # Use the following plug-ins
 gems:
