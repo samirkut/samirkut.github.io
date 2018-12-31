@@ -100,4 +100,4 @@ One thing to note is that this may not be as accurate as windows version since L
 
 ## Summary
 
-Overall it didnt take as much time as I thought it would to get an end to end running Linux system. I am a bit disapoointed about the battery life and lack of finger print support but on the whole the system is fast, extremely poerful and well worth the money.
+Overall it didnt take as much time as I thought it would to get an end to end running Linux system. I am a bit disappointed about the battery life and lack of finger print support but on the whole the system is fast, extremely powerful and well worth the money.
