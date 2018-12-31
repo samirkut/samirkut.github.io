@@ -56,8 +56,35 @@ Both options require you to disable the HiDpi deamon otherwise the resolution an
 ## Battery life
 I am getting about 4 hours on Nvidia driver. However since I dont really play games or do any graphics, I switched to the intel driver. This increased my batter life to something more sane (around 8 hours estimated)
 
+### Enable low power mode for Nvidia
+Edit 10-nvidia.conf found in /usr/share/X11/xorg.conf.d to look like the following
+
+```
+Section "OutputClass"
+    Identifier "nvidia"
+    MatchDriver "nvidia-drm"
+    Driver "nvidia"
+    Option "AllowEmptyInitialConfiguration"
+
+    # PowerMizerEnable=0x1 = to switch it on or off (using hex codes)
+    # PerfLevelSrc=0x2222 = is the performance strategy where 22 is the code for fixed frequency and 33 for adaptive frequency, defined for battery and AC use.
+    # PowerMizerDefault=0x3 = is the code to enable a performance level for battery use from 1 to 3, being from high (1) to low (3) performance.
+    # PowerMizerDefaultAC=0x3 = same as above but for AC power.
+    #
+    # Power saving on battery. Balanced performance on AC.
+    Option   "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x2233; PowerMizerDefault=0x3; PowerMizerDefaultAC=0x2"
+
+    ModulePath "/usr/lib/x86_64-linux-gnu/xorg"
+EndSection
+```
+
+_Original idea from comments on reddit [here](https://www.reddit.com/r/thinkpad/comments/aat9ah/my_x1_extreme_on_linux/)
+For an explaination of these options refer to these: 
+[Details](https://devtalk.nvidia.com/default/topic/982987/linux/power-mizer-difference-between-powermizerdefault-and-powermizerlevel/) 
+[Details](https://forums.opensuse.org/showthread.php/410089-NVidia-Powermizer-how-to-tweak)_
+
 ## External monitor
-Not working so far. Need to investigate
+It seems that the external monitors are connected to the Nvidia card only so need to use the nvidia driver for this to work. One irritating issue is that Gnome resets the resoltuion to default every time I connect/disconnect an external monitor.
 
 ## Fingerprint
 Not working as there is no driver support [Details](https://github.com/nmikhailov/Validity90/issues/34).
@@ -73,4 +100,4 @@ One thing to note is that this may not be as accurate as windows version since L
 
 ## Summary
 
-Overall it didnt take as much time as I thought it would to get an end to end running Linux system. I am a bit disapoointed about the lack of finger print support and the fact that the USB-C cannot be used for external monitor but on the whole the system is fast, extremely poerful and well worth the money.
+Overall it didnt take as much time as I thought it would to get an end to end running Linux system. I am a bit disapoointed about the battery life and lack of finger print support but on the whole the system is fast, extremely poerful and well worth the money.
