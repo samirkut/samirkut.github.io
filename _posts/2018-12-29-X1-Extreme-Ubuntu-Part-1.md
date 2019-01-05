@@ -78,10 +78,10 @@ Section "OutputClass"
 EndSection
 ```
 
-_Original idea from comments on reddit [here](https://www.reddit.com/r/thinkpad/comments/aat9ah/my_x1_extreme_on_linux/) _
+*Original idea from comments on reddit [here](https://www.reddit.com/r/thinkpad/comments/aat9ah/my_x1_extreme_on_linux/) 
 For an explaination of these options refer to these: 
 [Details](https://devtalk.nvidia.com/default/topic/982987/linux/power-mizer-difference-between-powermizerdefault-and-powermizerlevel/) 
-[Details](https://forums.opensuse.org/showthread.php/410089-NVidia-Powermizer-how-to-tweak)_
+[Details](https://forums.opensuse.org/showthread.php/410089-NVidia-Powermizer-how-to-tweak)*
 
 ## External monitor
 It seems that the external monitors are connected to the Nvidia card only so need to use the nvidia driver for this to work. One irritating issue is that Gnome resets the resoltuion to default every time I connect/disconnect an external monitor.
