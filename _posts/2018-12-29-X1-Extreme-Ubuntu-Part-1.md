@@ -78,7 +78,7 @@ Section "OutputClass"
 EndSection
 ```
 
-_Original idea from comments on reddit [here](https://www.reddit.com/r/thinkpad/comments/aat9ah/my_x1_extreme_on_linux/)
+_Original idea from comments on reddit [here](https://www.reddit.com/r/thinkpad/comments/aat9ah/my_x1_extreme_on_linux/) _
 For an explaination of these options refer to these: 
 [Details](https://devtalk.nvidia.com/default/topic/982987/linux/power-mizer-difference-between-powermizerdefault-and-powermizerlevel/) 
 [Details](https://forums.opensuse.org/showthread.php/410089-NVidia-Powermizer-how-to-tweak)_
@@ -97,6 +97,9 @@ I want to enable something like Windows Hello login. Havent tried as yet but loo
 
 One thing to note is that this may not be as accurate as windows version since Linux is only seeing one IR device. From my understanding there are 2 IR cameras which make the detection more accurate in windows.
 
+## Hibernate
+
+Tried to hibernate (systemctl hibernate) but when the machine started up all the programs were gone. So for now this doesnt work.  
 
 ## Summary
 
