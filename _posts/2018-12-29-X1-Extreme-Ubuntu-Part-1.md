@@ -37,6 +37,7 @@ Installation is web based from [here](https://extensions.gnome.org). You need to
 * User Themes - manage themes
 * Dash to Dock - move the dash from overview and convert it into a dock 
 * Windows Corner Preview - This doesnt work with the current version on the gnome extensions website. The easiest way is to install the extension from the site and then replace metadata.json and extension.json from the github repo. See [details](https://github.com/medenagan/window-corner-preview/issues/8#issuecomment-434488247)
+* Unite - Cleans up the top-bar, makes the status bar look and behave better, auto hide top bar on maximize etc
 
 ### Other Software
 * Gnome Tweaks
