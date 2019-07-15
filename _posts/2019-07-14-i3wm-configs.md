@@ -79,3 +79,8 @@ EndSection
 # Issue: Bluetooth status
 
 No way to see status on the bar. Juse use bluetoothctl to pair/unpair/see devices/connect/disconnect etc. Works decently well.
+
+# Wireless
+
+The simplest way is to use nmtui. Its an easy to use, terminal based network manager. 
+
