@@ -93,4 +93,4 @@ The simplest way is to use nmtui. Its an easy to use, terminal based network man
 
 Used configs from [here](https://dougie.io/linux/hidpi-retina-i3wm/)
 
-Changed the dpi to 142 - which I find more confortable
+Changed the dpi to 142, GDK\_DPI\_SCALE to 0.7 - which I find more confortable
