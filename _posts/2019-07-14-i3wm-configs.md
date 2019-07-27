@@ -42,7 +42,7 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #i
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Sreen brightness controls
+# Screen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
@@ -78,7 +78,12 @@ EndSection
 
 # Issue: Bluetooth status
 
-No way to see status on the bar. Juse use bluetoothctl to pair/unpair/see devices/connect/disconnect etc. Works decently well.
+No way to see status on the bar. Juse use bluetoothctl to pair/unpair/see devices/connect/disconnect etc. However that may or may not work at all (depending on your luck). I have had good luck using blueman-manager - although the volume keys configured above dont seem to work :(
+
+Blueman isnt install by default but the following code installs it
+```
+# sudo apt install blueman
+```
 
 # Wireless
 
