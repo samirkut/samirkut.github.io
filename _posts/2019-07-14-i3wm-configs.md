@@ -89,3 +89,8 @@ Blueman isnt install by default but the following code installs it
 
 The simplest way is to use nmtui. Its an easy to use, terminal based network manager. 
 
+# HiDpi screen
+
+Used configs from [here](https://dougie.io/linux/hidpi-retina-i3wm/)
+
+Changed the dpi to 142 - which I find more confortable
